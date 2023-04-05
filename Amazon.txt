@@ -1,0 +1,39 @@
+obj.clickonyouraccount();
+		     if(driver.findElement(By.linkText("Your Account")).isDisplayed())
+		     {
+		    	 test.pass("your Account is clicked");
+		     }
+		     else 
+		     {
+		    	 test.fail("your Account is not clicked"); 
+		     }
+		     
+		     obj.clickonsigninlink();
+		     if(driver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]")).isDisplayed())
+		     {
+		    	 test.pass("your signinlink is clicked");
+		     }
+		     else 
+		     {
+		    	 test.fail("your signinlink is not clicked"); 
+		     }
+		     obj.enteremail(email);
+		     obj.clickoncontinue();
+		     if(driver.findElement(By.id("continue")).isDisplayed())
+		     {
+		    	 test.pass("your continue button is clicked");
+		     }
+		     else 
+		     {
+		    	 test.fail("yourcontinue button is not clicked"); 
+		     }
+		     obj.enterpassword(password);
+		     obj.clickonsigninsubmit();
+		     if(driver.findElement(By.id("continue")).isDisplayed())
+		     {
+		    	 test.pass("your submit button is clicked");
+		     }
+		     else 
+		     {
+		    	 test.fail("your submit button is not clicked"); 
+		     }

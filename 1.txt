@@ -1,0 +1,5 @@
+
+		@FindBy(linkText="Apple iPhone 13 (128GB) - Midnight")
+		WebElement Model;
+
+

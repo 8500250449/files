@@ -1,0 +1,19 @@
+git url
+
+https://github.com/8500250449/testing2022.git
+https://github.com/8500250449/eclipse.git
+https://github.com/8500250449/pycharm-projects.git
+https://github.com/8500250449/c-.git
+https://github.com/8500250449/uft-programs.git
+https://github.com/8500250449/uft
+https://github.com/8500250449/hybridframework.git
+
+
+git remote add origin  https://github.com/8500250449/testing2022.git
+
+
+git remote -v
+
+git branch
+
+git push -u origin main/master (we need use any one of those)
